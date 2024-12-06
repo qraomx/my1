@@ -1,4 +1,4 @@
-secrets_and_text.py
+secrets_and_text*.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

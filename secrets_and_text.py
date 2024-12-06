@@ -1,2 +1,0 @@
-token = "7698717914:AAF_rOMsogIfKLQAmVwTJ2sILN9LKniDgOQ"
- 
