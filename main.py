@@ -5,7 +5,7 @@ from aiogram.types import Message
 
 from app.handlers import router
 from app.database.models import async_main
-from secrets_and_text import token
+from texts import token
 from app.scheduler import send_message_scheduler
 from datetime import datetime, timedelta
  
