@@ -10,7 +10,7 @@ from app.database.models import async_session
 async def send_message_scheduler(bot: Bot ):
     async with async_session() as session:
         #Получаем список юзеров, которые подписаны хотя бы на 1 олимпиаду       
-        query = text(f"select distinct tg_id from  User_Olymps where tg_id=747625668 ")     
+        query = text(f"select distinct tg_id from  User_Olymps ")     
        
         result =  await session.execute(query)      
 

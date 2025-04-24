@@ -20,7 +20,7 @@ async def main():
     scheduler = AsyncIOScheduler(timezone='Europe/Moscow')
   
     #Здесь будет запуск рассылки по рассписанию
-    scheduler.add_job(send_message_scheduler,trigger="cron",hour=17,minute=00,start_date=datetime.now(), kwargs={"bot": bot },)
+    #scheduler.add_job(send_message_scheduler,trigger="cron",hour=10,minute=00,start_date=datetime.now(), kwargs={"bot": bot },)
     #scheduler.add_job(send_message_scheduler,trigger="interval",seconds=60, kwargs={"bot": bot },)
    
     #стартуем работу
